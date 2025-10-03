@@ -1,6 +1,4 @@
 # In[ ]:
-
-
 a=30
 b=10
 c=30
@@ -18,29 +16,20 @@ elif (a==c):
     print(a is c)
 else:
     print("bye")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x=int(input("Enter no. f days to convert:"))
 print(f"for {x} days will be {x//360} year {(x%360)//30} month {(x%30)%30} days")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 a=int(input("Enter number to sum:"))#123
 z=a//10   #12
 x=a%10    #3
 w=z//10   #1           
 y=z%10    #2
 print(f"for {y} number sum will be {y+x+w}")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x=int(input("Enter number:"))
 z=x%10
 if(z==0):
@@ -53,11 +42,8 @@ elif (z==3):
     print("three")
 else:
     print("number is not =0,1,2,3")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x=int(input("Enter number of amount:"))
 a=x//50
 b=x%50
@@ -65,11 +51,8 @@ c=b//20
 d=b%20
 e=d//10
 print(f"50={a},20={c},10={e}")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter IN hour:"))
 x2=int(input("Enter IN min:"))
 x3=int(input("Enter IN sec:"))
@@ -90,21 +73,15 @@ else:
     print(f"total sec of in time={c1}")
     print("total mins for out time=",(b+x5+d))
     print(f"total sec of in time={d1}")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 for i in range(1,11):
     if (i%2==0):
         print("even=",i)
     else:
         print("odd=",i)
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter number to multiply:"))
 print(f"table for {x1}")
 for i in range(1,11):
@@ -112,11 +89,8 @@ for i in range(1,11):
         print(f"{x1}*{i}=",x1*i)
     else:
         print("enter valid name")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter number to multiply:"))
 print(f"table for {x1}")
 for i in range(10,0,-1):
@@ -124,21 +98,15 @@ for i in range(10,0,-1):
         print(f"{x1}*{i}=",x1*i)
     else:
         print("enter valid name")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 for i in range(1,11):
     if (i==3 or i==6):
         continue
     else:
         print(i)
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter number:"))
 sum=0
 while x1>0:
@@ -146,11 +114,8 @@ while x1>0:
     sum=(sum*10)+digit
     x1=x1//10
 print(f"reversed number=",sum)
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter number:"))
 sum=0
 while x1>0:
@@ -158,11 +123,8 @@ while x1>0:
     sum=sum+digit
     x1=x1//10
 print(f"sum of number=",sum)
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter number:"))
 sum=0
 while x1>0:
@@ -170,11 +132,8 @@ while x1>0:
     sum=sum+(digit**3)
     x1=x1//10
 print(f"sum of cube of number=",sum)
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter number:"))
 sum=0
 temp=x1
@@ -188,11 +147,8 @@ if(sum==temp):
     print(f"yes it is an armstrong number")
 else:
     print("no it is not")
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter number:"))
 sum=0
 temp=x1
@@ -211,11 +167,8 @@ print(f"first=",first)
 print(f"last=",last)
 print("middle=",middle)
 print("swap of first and last number="swap)
-
-
+-------------------------------------------------------------------------------------------
 # In[ ]:
-
-
 x1=int(input("Enter number:"))
 temp=x1
 c=0
@@ -224,11 +177,8 @@ while x1>0:
     x1=x1//10
     second=(temp//10**(c-2))
 print("first 2 number is",second)
-
-
+-------------------------------------------------------------------------------------------
 # In[12]:
-
-
 x1=int(input("Enter number:"))
 sum=0
 temp=x1
@@ -241,12 +191,4 @@ while temp>0:
     sum=sum+(digit**c)
     temp=temp//10
 print(f"sum of cube of number in base of count=",sum)
-
-
-# In[ ]:
-
-
-
-
-T1-129-Copy1.py
-Displaying T1-129-Copy1.py.
+-------------------------------------------------------------------------------------------
