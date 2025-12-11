@@ -1,0 +1,10 @@
+dhruv 500
+dhoni 1000
+virat 100
+rohit 200
+sachin 300
+bumrah 250
+jadeja 600
+kuldeep 400
+dhairya 50
+parshwa 55
